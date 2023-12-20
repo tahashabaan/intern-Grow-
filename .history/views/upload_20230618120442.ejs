@@ -1,0 +1,15 @@
+include('./include/head.ejs');
+</head>
+
+<body>
+    <h1>hello from upload file</h1>
+    <form action="/upload-file" method="post" enctype="multipart/form-data"> 
+         <input type="file" name="file"/>
+         <button type="submit">Upload</button>
+    </form>
+
+
+include('./include/footer.ejs');
+
+
+

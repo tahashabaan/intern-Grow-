@@ -1,0 +1,2 @@
+
+class apiError extend Error
